@@ -1,0 +1,28 @@
+#ul1
+{list-style-type: none;
+
+}
+li
+{
+    margin-top: 10%;
+}
+#abc
+{
+    margin-top: 5%;
+    letter-spacing: 1px;
+
+}
+#fa:hover {
+    background-color: red;
+}
+ #li:hover {
+    background-color: red;
+}
+#in:hover {
+    background-color: red;
+}
+#yo:hover {
+    background-color: red;
+    
+} 
+

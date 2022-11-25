@@ -1,0 +1,87 @@
+.toolbar
+{
+    display: flex;
+    font-weight: 500;
+    font-size: large;
+    margin-top: 2%;
+    position: sticky;
+    
+}
+.back
+{
+    background-color: rgb(245, 234, 235);
+}
+#btn
+{
+    margin-bottom:5%;
+    border-radius: 25px;
+}
+#history
+{
+margin-bottom: 2%;
+font-weight: 500px;
+
+}
+#brows
+{
+    margin-bottom: 15%;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    padding: 1%;
+    width: 15%;
+    border: none;
+}
+.items
+{
+    display:flex;
+    margin-top: 5%;
+    
+}
+#alll
+{
+  margin-left: 18%; 
+  border-radius: 25px;
+  padding: 10px; 
+  
+}
+#all
+{
+    margin-left: 2%;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+#view
+{
+    display: flex;
+}
+#btttn
+{
+    border-color: white;
+}
+#range
+{
+    margin-left: 32%;
+    /* margin-bottom: 15%; */
+
+}
+#evan
+{
+    margin-bottom: 20%;
+}
+.all0:hover{
+    background-color: red;
+}
+.all1:hover{
+    background-color: red;   
+}
+.all2:hover{
+    background-color: red;   
+}
+.all3:hover{
+    background-color: red;   
+}
+.all4:hover{
+    background-color: red;   
+}
