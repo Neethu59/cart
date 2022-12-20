@@ -12,16 +12,16 @@ export default function Navbar() {
   const navigate=useNavigate()
   const key="cartdata"
   const[state,setState]=useState(JSON.parse(localStorage.getItem(key)))
-  const[count,setCount]=useState(0)
+  // const[count,setCount]=useState(0)
  useEffect(()=>
  {
-
- },[state])
+// setState(state?.length)
+ },[])
   
-  useEffect(()=>{
-    console.log(count)
-     setCount(state.length)
-  },[count])
+  // useEffect(()=>{
+  //   console.log(count)
+  //    setCount(state.length)
+  // },[])
   return (
     <>
     <div className=' navbook'>
@@ -33,7 +33,7 @@ export default function Navbar() {
   <p style={{marginLeft:"3%",marginTop:"2%"}}>Track Order</p>
 
   <Badge 
-   badgeContent={count} 
+   badgeContent={state.length} 
    color="primary" id="badge" >
   <ShoppingCartSharp id="cart" onClick={()=>{navigate("/cart")}}/></Badge> 
   <input type="button" class="btn btn-danger" value="sign in" style={{marginLeft:"5%",height:"10%",marginTop:"1%",borderRadius:"50px"}}></input>
